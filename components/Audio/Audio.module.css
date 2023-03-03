@@ -6,9 +6,15 @@
     margin: 1rem auto;
 }
 
+.controls:hover {
+    cursor: pointer;
+}
+
 .controlsAudioPlayer {
     display: none;
 }
+
+
 
 .controls__flex {
     display: flex;
@@ -57,4 +63,8 @@
     width: 275px;
     display: flex;
     align-items: center;
+}
+
+.range:hover {
+    cursor: pointer;
 }
