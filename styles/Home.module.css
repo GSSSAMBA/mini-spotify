@@ -1,0 +1,22 @@
+.container {
+  /* display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 2px solid red; */
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.songPlaying {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
